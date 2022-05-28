@@ -1,0 +1,12 @@
+section{
+    margin-bottom: 20px;
+}
+
+#foto-da-escola{
+    width: 100%;
+}
+
+#grupos article div{
+    display: flex;
+    justify-content: center;
+}
