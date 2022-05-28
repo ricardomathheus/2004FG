@@ -65,7 +65,7 @@
 
         </section>
 
-        <section>
+        <section id="fotos">
             <h2>Fotos tiradas no dia do evento</h2>
             <article id="fotos-do-evento">
                 
@@ -76,10 +76,12 @@
     <footer></footer>
 
     <script>
-        const albumDeFots = document.querySelector('#fotos-do-evento')
+        setInterval(() => {
+            const albumDeFots = document.querySelector('#fotos-do-evento')
         const fotos = 'fotos/foto1.png'
-        albumDeFots.innerHTML = `<img src="${fotos}">`
-        
+        albumDeFots.innerHTML += `<img src="${fotos}">`
+        }, 1000);
+
     </script>
 </body>
 </html>

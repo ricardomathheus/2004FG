@@ -10,3 +10,13 @@ section{
     display: flex;
     justify-content: center;
 }
+
+#fotos article{
+    display: flex;
+    flex-direction: column;
+}
+
+#fotos article img{
+    margin: 10px auto;
+    max-width: 90%;
+}
