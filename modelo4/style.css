@@ -19,6 +19,7 @@ h2{
 
 p{
     margin: 5px 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 section{
@@ -31,6 +32,8 @@ section{
 }
 
 #escola img{
+    width: 100%;
+    margin: 0px;
 }
 
 #grupos article {
