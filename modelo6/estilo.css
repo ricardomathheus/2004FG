@@ -13,6 +13,10 @@ h1{
     margin: 10px;
 }
 
+h2{
+    margin: 0px 10px;
+}
+
 p, ul{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -28,10 +32,6 @@ section{
 #escola{
     padding-top: 20px;
     padding-bottom: 40px;
-}
-
-#escola h2{
-    margin: 0px 10px;
 }
 
 #escola img{
@@ -54,14 +54,22 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
     margin: 10px;
     border-radius: 20px;
     max-width: 500px;
 }
 
+#grupos article h2{
+    margin: 0px;
+}
+
 #grupos article .img-conteiner{
     margin: 5px 10px;
+}
+
+#grupos article .img-conteiner img{
+    max-width: 100%;
 }
 
 #grupos article ul{
