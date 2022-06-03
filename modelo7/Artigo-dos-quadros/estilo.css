@@ -7,8 +7,9 @@ p{
 }
 
 header{
+    color: white;
     padding: 10px;
-    background-color: blue;
+    background-color: #7f2827;
     height: 190px;
     margin-bottom: 150px;
 }
