@@ -2,7 +2,7 @@
     --cor: 221deg;
     --mais-claro: hsl(var(--cor) 75% 50%);
     --claro: hsl(var(--cor) 75% 45%);
-    --medio: hsl(var(--cor) 74% 40%);
+    --medio: hsl(var(--cor) 74% 40%); 
     --texto: white;
     --texto2: hsl(var(--cor) 100% 90%)
 }
