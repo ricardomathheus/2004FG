@@ -86,7 +86,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
 
@@ -105,6 +104,7 @@ body {
     padding: 1.5rem;
     border-radius: 1rem;
     margin: 1rem 3rem;
+    text-transform: capitalize;
 }
 
 #hq img {
